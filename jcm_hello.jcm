@@ -14,7 +14,7 @@
 
 mas jcm_hello {
 
-    agent mailer {
+    agent sample_agent {
         ag-arch: jason.Mailer
     }
 

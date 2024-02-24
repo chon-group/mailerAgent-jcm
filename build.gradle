@@ -10,7 +10,7 @@ defaultTasks 'run'
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 
-version '1.2'
+version '1.0'
 group = 'com.github.chon-group'
 
 java {
@@ -29,8 +29,7 @@ repositories {
 
 dependencies {
     implementation('org.jacamo:jacamo:1.2-SNAPSHOT') 
-    implementation('com.github.chon-group:Mailer:0.1-beta')
-    implementation('io.github.jason-lang:jason-interpreter:3.2.0')
+    implementation('com.github.chon-group:Mailer:1.0')
 }
 
 sourceSets {
